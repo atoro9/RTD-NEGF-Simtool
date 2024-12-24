@@ -1,0 +1,695 @@
+<begin_header>
+what = "@(#)NEMO Input File -- Version 4.0.2"
+ftype = Nemo_Input_File 
+version = "4.0.2"
+%			comments = "Some Character String"
+<end_header>
+
+%****************************************************************
+%
+%  THIS IS THE LAYER STRUCTURE FOR YOUR VIEWING ONLY.
+%  PLEASE DO NOT EDIT IT (IT WON'T BE READ IN ANYWAY).
+%  THE TAGGED FIELDS ARE THE LAYER INFO TO BE READ IN.
+%
+% L0    GaAs                0.0000  0.0000        0.0000 1e+18       0.0000  0.0000      30.0298 106  0.0000   1 
+% L1    GaAs                0.0000  0.0000        0.0000 2e+15       0.0000  0.0000      35.1292 124  0.0000   1 
+% L2    AlGaAs              0.3000  0.3000        0.0000 2e+15       0.0000  0.0000       4.5328  16  0.0000   0 
+% L3    GaAs                0.0000  0.0000        0.0000 2e+15       0.0000  0.0000       6.2326  22  0.0000   0 
+% L4    AlGaAs              0.3000  0.3000        0.0000 2e+15       0.0000  0.0000       4.5328  16  0.0000   0 
+% L5    GaAs                0.0000  0.0000        0.0000 2e+15       0.0000  0.0000      35.1292 124  0.0000   2 
+% L6    GaAs                0.0000  0.0000        0.0000 1e+18       0.0000  0.0000      30.0298 106  0.0000   2 
+%
+%****************************************************************
+
+<begin_layer_list>
+
+<begin_layer>
+layer_name = "L0"
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+x_mole_frac_end = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+doping = 1e+18 
+doping_end = 0 
+fermi_level_fix = 0 
+thickness = 30.0298 
+monolayers = 106 
+roughness = 0 
+terminal_no = 1 
+<end_layer>
+
+<begin_layer>
+layer_name = "L1"
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+x_mole_frac_end = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+doping = 2e+15 
+doping_end = 0 
+fermi_level_fix = 0 
+thickness = 35.1292 
+monolayers = 124 
+roughness = 0 
+terminal_no = 1 
+<end_layer>
+
+<begin_layer>
+layer_name = "L2"
+material = "AlGaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0.3 
+x_mole_frac_end = 0.3 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+doping = 2e+15 
+doping_end = 0 
+fermi_level_fix = 0 
+thickness = 4.5328 
+monolayers = 16 
+roughness = 0 
+terminal_no = 0 
+<end_layer>
+
+<begin_layer>
+layer_name = "L3"
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+x_mole_frac_end = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+doping = 2e+15 
+doping_end = 0 
+fermi_level_fix = 0 
+thickness = 6.2326 
+monolayers = 22 
+roughness = 0 
+terminal_no = 0 
+<end_layer>
+
+<begin_layer>
+layer_name = "L4"
+material = "AlGaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0.3 
+x_mole_frac_end = 0.3 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+doping = 2e+15 
+doping_end = 0 
+fermi_level_fix = 0 
+thickness = 4.5328 
+monolayers = 16 
+roughness = 0 
+terminal_no = 0 
+<end_layer>
+
+<begin_layer>
+layer_name = "L5"
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+x_mole_frac_end = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+doping = 2e+15 
+doping_end = 0 
+fermi_level_fix = 0 
+thickness = 35.1292 
+monolayers = 124 
+roughness = 0 
+terminal_no = 2 
+<end_layer>
+
+<begin_layer>
+layer_name = "L6"
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+x_mole_frac_end = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+doping = 1e+18 
+doping_end = 0 
+fermi_level_fix = 0 
+thickness = 30.0298 
+monolayers = 106 
+roughness = 0 
+terminal_no = 2 
+<end_layer>
+
+<end_layer_list>
+
+<begin_material_list>
+
+<begin_material>
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Bands_10_so_s"
+Ec = 1.41734 
+Ev = -4.80122e-07 
+mstar_c_dos = 0.0678806 
+mstar_v_dos = 0.461933 
+epsilon = 12.8464 
+mstar_c_t = 0.0678806 
+mstar_v_t = 0.443609 
+Ev_offset = 0 
+epsilon_inf = 10.8862 
+c_la = 5.11667 
+w_pop = 0.036 
+rho_mass = 5.3165 
+D_ac = 7.17 
+mb_nparam = 15 
+mb_p[0] = -8.5107 
+mb_p[1] = 0.954046 
+mb_p[2] = -2.77475 
+mb_p[3] = 3.43405 
+mb_p[4] = 8.45405 
+mb_p[5] = 6.58405 
+mb_p[6] = -6.4513 
+mb_p[7] = 1.9546 
+mb_p[8] = 4.77 
+mb_p[9] = 4.68 
+mb_p[10] = 7.7 
+mb_p[11] = 4.85 
+mb_p[12] = 7.01 
+mb_p[13] = 0.42 
+mb_p[14] = 0.174 
+<end_material>
+
+<begin_material>
+material = "AlAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Bands_10_so_s"
+Ec = 1.63046 
+Ev = -0.545148 
+mstar_c_dos = 0.181553 
+mstar_v_dos = 0.78388 
+epsilon = 10.06 
+mstar_c_t = 0.181553 
+mstar_v_t = 0.746121 
+Ev_offset = -0.545148 
+epsilon_inf = 8.16 
+c_la = 6.15 
+w_pop = 0.05009 
+rho_mass = 3.729 
+D_ac = 5.64 
+mb_nparam = 15 
+mb_p[0] = -7.73823 
+mb_p[1] = 0.872374 
+mb_p[2] = -1.10174 
+mb_p[3] = 3.47577 
+mb_p[4] = 7.37351 
+mb_p[5] = 6.61577 
+mb_p[6] = -6.6642 
+mb_p[7] = 1.878 
+mb_p[8] = 3.86 
+mb_p[9] = 5.6 
+mb_p[10] = 6.8 
+mb_p[11] = 4.22 
+mb_p[12] = 7.3 
+mb_p[13] = 0.42 
+mb_p[14] = 0.024 
+<end_material>
+
+<begin_material>
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Bands_10"
+Ec = 1.42556 
+Ev = 4.45445e-07 
+mstar_c_dos = 0.0627639 
+mstar_v_dos = 0.682938 
+epsilon = 12.8464 
+mstar_c_t = 0.0627639 
+mstar_v_t = 0.430236 
+Ev_offset = 0 
+epsilon_inf = 10.8862 
+c_la = 5.11667 
+w_pop = 0.036 
+rho_mass = 5.3165 
+D_ac = 7.17 
+mb_nparam = 15 
+mb_p[0] = -8.50248 
+mb_p[1] = 0.962272 
+mb_p[2] = -2.76653 
+mb_p[3] = 3.44227 
+mb_p[4] = 8.46227 
+mb_p[5] = 6.59227 
+mb_p[6] = -6.4513 
+mb_p[7] = 1.82 
+mb_p[8] = 4.77 
+mb_p[9] = 4.68 
+mb_p[10] = 7.7 
+mb_p[11] = 4.85 
+mb_p[12] = 6.9 
+mb_p[13] = 0 
+mb_p[14] = 0 
+<end_material>
+
+<begin_material>
+material = "AlAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Bands_10"
+Ec = 1.65855 
+Ev = -0.545148 
+mstar_c_dos = 0.140507 
+mstar_v_dos = 1.2106 
+epsilon = 10.06 
+mstar_c_t = 0.140507 
+mstar_v_t = 0.762562 
+Ev_offset = -0.545148 
+epsilon_inf = 8.16 
+c_la = 6.15 
+w_pop = 0.05009 
+rho_mass = 3.729 
+D_ac = 5.64 
+mb_nparam = 15 
+mb_p[0] = -7.62728 
+mb_p[1] = 0.983318 
+mb_p[2] = -1.14299 
+mb_p[3] = 3.58672 
+mb_p[4] = 7.48445 
+mb_p[5] = 6.72672 
+mb_p[6] = -6.6642 
+mb_p[7] = 1.878 
+mb_p[8] = 3.86 
+mb_p[9] = 5.6 
+mb_p[10] = 7.6 
+mb_p[11] = 4.22 
+mb_p[12] = 8.3 
+mb_p[13] = 0 
+mb_p[14] = 0 
+<end_material>
+
+<begin_material>
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Cgam"
+Ec = 1.424 
+Ev = 0 
+mstar_c_dos = 0.067 
+mstar_v_dos = 0.521112 
+epsilon = 12.8464 
+epsilon_inf = 10.8862 
+c_la = 5.11667 
+w_pop = 0.036 
+rho_mass = 5.3165 
+D_ac = 7.17 
+msb_nbands = 1 
+msb_mstar_l[0] = 0.067 
+msb_mstar_t[0] = 0.067 
+msb_mstar_2d_dos[0] = 0.067 
+msb_delE[0] = 1.424 
+msb_degen[0] = 1 
+msb_label[0] = "Ec"
+msb_Vx_alloy[0] = 0 
+<end_material>
+
+<begin_material>
+material = "AlAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Cgam"
+Ec = 1.57709 
+Ev = -0.545148 
+mstar_c_dos = 0.15 
+mstar_v_dos = 0.798492 
+epsilon = 10.06 
+epsilon_inf = 8.16 
+c_la = 6.15 
+w_pop = 0.05009 
+rho_mass = 3.729 
+D_ac = 5.64 
+msb_nbands = 1 
+msb_mstar_l[0] = 0.15 
+msb_mstar_t[0] = 0.15 
+msb_mstar_2d_dos[0] = 0.15 
+msb_delE[0] = 2.47285 
+msb_degen[0] = 1 
+msb_label[0] = "Ec"
+msb_Vx_alloy[0] = 0 
+<end_material>
+
+<begin_material>
+material = "GaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Bands_2"
+Ec = 1.424 
+Ev = 0 
+mstar_c_dos = 0.0669999 
+mstar_v_dos = 0.067 
+epsilon = 12.8464 
+mstar_c_t = 0.0669999 
+mstar_v_t = 0.067 
+Ev_offset = 0 
+epsilon_inf = 10.8862 
+c_la = 5.11667 
+w_pop = 0.036 
+rho_mass = 5.3165 
+D_ac = 7.17 
+mb_nparam = 3 
+mb2_p[0] = 1.424 
+mb2_p[1] = 0.067 
+mb2_p[2] = 0.2833 
+<end_material>
+
+<begin_material>
+material = "AlAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Bands_2"
+Ec = 2.47285 
+Ev = -0.545148 
+mstar_c_dos = 0.15 
+mstar_v_dos = 0.15 
+epsilon = 10.06 
+mstar_c_t = 0.15 
+mstar_v_t = 0.15 
+Ev_offset = -0.545148 
+epsilon_inf = 8.16 
+c_la = 6.15 
+w_pop = 0.05009 
+rho_mass = 3.729 
+D_ac = 5.64 
+mb_nparam = 3 
+mb2_p[0] = 3.018 
+mb2_p[1] = 0.15 
+mb2_p[2] = 0.2833 
+<end_material>
+
+<begin_material>
+material = "AlGaAs"
+%			comp1_mat = "Some Character String"
+x_mole_frac = 0.3 
+%			comp2_mat = "Some Character String"
+y_mole_frac = 0 
+temperature = 300 
+substrate = "GaAs"
+band_model = "Cgam"
+Ec = 1.7019 
+Ev = -0.14444 
+mstar_c_dos = 0.0919 
+mstar_v_dos = 0.604326 
+epsilon = 12.0105 
+epsilon_inf = 10.0683 
+c_la = 5.11667 
+w_pop = 0.040227 
+rho_mass = 4.84025 
+D_ac = 6.711 
+msb_nbands = 1 
+msb_mstar_l[0] = 0.0919 
+msb_mstar_t[0] = 0.0919 
+msb_mstar_2d_dos[0] = 0.0919 
+msb_delE[0] = 1.7019 
+msb_degen[0] = 1 
+msb_label[0] = "Ec"
+msb_Vx_alloy[0] = 0.231019 
+<end_material>
+
+<end_material_list>
+
+
+<begin_device>
+A_xsection = 1 
+temperature = 300 
+electron_temperature = 300 
+lattice_const = 0.2833 
+dxmesh = 0.2833 
+BoundaryCondition = BC_Open 
+%			BoundaryCondition = {BC_Open, BC_Closed}
+band_model = "Cgam"
+substrate = "GaAs"
+<end_device>
+
+<begin_terminal_parameter_list>
+
+<begin_terminal_parameters>
+name = "V1"
+terminal = 1 
+absolute_terminal = 1 
+reference_terminal = 1 
+var_order = 1 
+bias_start = 0 
+bias_end = 0 
+bias_increment = 0 
+bias_points = 0 
+active = Trueflag 
+<end_terminal_parameters>
+
+<begin_terminal_parameters>
+name = "V2"
+terminal = 2 
+absolute_terminal = 1 
+reference_terminal = 1 
+var_order = 2 
+bias_start = 0 
+bias_end = 0.6 
+bias_increment = 0.02 
+bias_points = 31 
+active = Trueflag 
+<end_terminal_parameters>
+
+<end_terminal_parameter_list>
+
+
+<begin_calcmode>
+calc_mode = iv_calc 
+%			calc_mode = {iv_calc, resfind_calc}
+<end_calcmode>
+
+<begin_iv>
+Ptype = ThomasFermiQF 
+%			Ptype = {ThomasFermi, ThomasFermiQF, Selfcons, LinearDrop, ReadExternalPotentialFile_NSC}
+bulk_charge = Parabolic 
+%			bulk_charge = {Numerical, Parabolic}
+ScatterOption = ScatterNone 
+%			ScatterOption = {ScatterNone, MSS_Scatter, SCB_Scatter}
+TransverseIntegr = AnalytTransverseIntegr 
+%			TransverseIntegr = {AnalytTransverseIntegr, NumerTransverseIntegr}
+NonParabolicSB = NonParabolicSBOff 
+%			NonParabolicSB = {NonParabolicSBOff, NonParabolicSBOn}
+irpot = NotModeled 
+%			irpot = {NotModeled, VirtualCrystalApprox}
+energyrangetype = Auto_EnergyRange 
+%			energyrangetype = {Manual_EnergyRange, Auto_EnergyRange}
+nkbt = 10 
+RelaxationModel = ExponentialDecay 
+%			RelaxationModel = {EnergyIndependent, ExponentialDecay, LorentzianDecay}
+hbarovertau = 0.0066 
+eta_decay = 0.0066 
+mb_current_cut = 0.0066 
+ac_hbaromega = 0.01 
+ac_vtilde = 0.0001 
+<end_iv>
+
+
+<begin_iv_output>
+status_update = 1 
+compress = Falseflag 
+I_V = Trueflag 
+C_V = Falseflag 
+C_V_terminal = Falseflag 
+C_V_quantum = Falseflag 
+n_sheet = Trueflag 
+p_sheet = Falseflag 
+ResEnergy_V = Trueflag 
+ResWidth_V = Trueflag 
+ResTrans_V = Trueflag 
+ResTrans_E = Trueflag 
+bands2d = Trueflag 
+Ev2d = Falseflag 
+EF2d = Trueflag 
+Ves2d = Falseflag 
+Vxc2d = Falseflag 
+rho = Trueflag 
+n_pot2d = Trueflag 
+p_pot2d = Falseflag 
+doping2d = Trueflag 
+n_curr2d = Falseflag 
+res_energy = Trueflag 
+res_state = Trueflag 
+res_wave = Trueflag 
+orb_wave = Falseflag 
+J2d = Trueflag 
+T2d = Trueflag 
+more_options = Trueflag 
+E_k_table = Falseflag 
+debug_print = Falseflag 
+opt_rates = Falseflag 
+gr3d = Falseflag 
+n3d = Falseflag 
+np3d = Falseflag 
+p3d = Falseflag 
+log_cutoff = -12 
+keep_low_N_res = 0 
+keep_high_N_res = 0 
+msb_E = Falseflag 
+msb_EF = Falseflag 
+msb_Emin = Falseflag 
+msb_Emax = Falseflag 
+n_msb2d = Falseflag 
+J_int_E = Trueflag 
+J_int_E_ave = Trueflag 
+bandsChargeCut2d = Falseflag 
+npsb_E_k = Falseflag 
+npsb_t = Falseflag 
+full_band_E_shift = Falseflag 
+mass_full_band_E_shift = 0.067 
+Ec_min_k = Falseflag 
+Ev_max_k = Falseflag 
+Ec_min_Ev_max_k = Falseflag 
+ResEnergy_k = Falseflag 
+J_k = Trueflag 
+J_int_k = Falseflag 
+kJ_k = Falseflag 
+kJ_int_k = Falseflag 
+J_phi = Falseflag 
+n_xk = Falseflag 
+n_xk_int_k = Falseflag 
+kn_xk_int_k = Falseflag 
+n_phi_x = Falseflag 
+I_V_error = Falseflag 
+gr0_MS3d = Falseflag 
+gr1_MS3d = Falseflag 
+gr0_lin_MS3d = Falseflag 
+gr1_lin_MS3d = Falseflag 
+gr0_real_MS3d = Falseflag 
+gr1_real_MS3d = Falseflag 
+gl0_MS3d = Falseflag 
+Jez_MS3d = Falseflag 
+Jet_MS3d = Falseflag 
+Jet_MS2d = Falseflag 
+Jet_error_MS2d = Falseflag 
+net_MS3d = Falseflag 
+net_MS2d = Falseflag 
+s_pop_MS3d = Falseflag 
+AC_rY_V = Falseflag 
+AC_iY_V = Falseflag 
+rJac_p = Falseflag 
+rJac_0 = Falseflag 
+rJac_m = Falseflag 
+iJac_p = Falseflag 
+iJac_0 = Falseflag 
+iJac_m = Falseflag 
+rJac_p_int = Falseflag 
+rJac_0_int = Falseflag 
+rJac_m_int = Falseflag 
+iJac_p_int = Falseflag 
+iJac_0_int = Falseflag 
+iJac_m_int = Falseflag 
+pois = Falseflag 
+pois_n = Falseflag 
+pois_dndV = Falseflag 
+pois_p = Falseflag 
+pois_dpdV = Falseflag 
+pois_semiclass = Falseflag 
+pois_rho = Falseflag 
+pois_res = Falseflag 
+param2d = Falseflag 
+C_V_charge = Falseflag 
+<end_iv_output>
+
+<begin_device_cut>
+start = -105 
+end = 105 
+<end_device_cut>
+
+<begin_non_equilibrium>
+start = -1 
+end = 0 
+<end_non_equilibrium>
+
+<begin_sheet_region>
+start = 0 
+end = -1 
+<end_sheet_region>
+
+<begin_iv_egridtype>
+egridtype = Fixed_plus_Adaptive 
+%			egridtype = {Fixed, Adaptive, Fixed_plus_Adaptive}
+cutoff_T_zero = 1e-15 
+cutoff_gr_zero = 1e-30 
+<end_iv_egridtype>
+
+<begin_resfind_region>
+start = -61 
+end = 0 
+<end_resfind_region>
+
+<begin_iv_adapt_egrid>
+cutoff = 1e-12 
+cutoff_n = 1e-10 
+eps = 0.001 
+eps_n = 0.01 
+eps_Jdiff = 0.01 
+min_delta_E = 1e-07 
+nestart = 51 
+max_refine = 20000 
+max_refine_per_branch = 1000 
+max_refine_per_node = 10 
+<end_iv_adapt_egrid>
+
+<begin_iv_fixed_egrid>
+nemesh = 500 
+ne_z_per_res = 80 
+ne_z_rest = 55 
+nemesh_selfc_extra = 0 
+Expert = NoDetails 
+%			Expert = {NoDetails, SeeDetails}
+netmesh = 0 
+ne_t_per_res = 0 
+ne_t_rest = 0 
+<end_iv_fixed_egrid>
+
+
+
+<begin_iv_key>
+bias_start = 0 
+bias_end = 0.6 
+nbias = 31 
+<end_iv_key>
+
+

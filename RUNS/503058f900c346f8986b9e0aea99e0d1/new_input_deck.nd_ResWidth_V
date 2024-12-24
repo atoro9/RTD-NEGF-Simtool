@@ -1,0 +1,325 @@
+<begin_header>
+what = "@(#)NEMO Resonance Width Data File -- Version 4.0.2"
+ftype = Resonance_Width_Data_File 
+version = "4.0.2"
+%			comments = "Some Character String"
+<end_header>
+
+<begin_x_axis>
+min = 0 
+max = 0 
+title = "Voltage (V)"
+%			label = "Some Character String"
+%			units = "Some Character String"
+autoscale = Trueflag 
+logscale = Falseflag 
+showaxis = Trueflag 
+showgrid = Falseflag 
+<end_x_axis>
+
+<begin_y_axis>
+min = 0 
+max = 0 
+title = "Width (eV)"
+%			label = "Some Character String"
+%			units = "Some Character String"
+autoscale = Trueflag 
+logscale = Trueflag 
+showaxis = Trueflag 
+showgrid = Falseflag 
+<end_y_axis>
+
+<begin_z_axis>
+min = 0 
+max = 0 
+%			title = "Some Character String"
+%			label = "Some Character String"
+%			units = "Some Character String"
+autoscale = Trueflag 
+logscale = Falseflag 
+showaxis = Trueflag 
+showgrid = Falseflag 
+<end_z_axis>
+
+<begin_legend_props>
+show = Falseflag 
+orient = XRT_ALIGN_VERTICAL 
+anchor = XRT_ANCHOR_EAST 
+border = XRT_BORDER_SHADOW 
+X = 0 
+Y = 0 
+Xdefault = Trueflag 
+Ydefault = Trueflag 
+dataset = 0 
+%			label_fmt = "Some Character String"
+<end_legend_props>
+
+
+<begin_format_props_list>
+<begin_format_props>
+dataset = 0 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Black"
+width = 2 
+point = PT_DOT 
+pcolor = "Black"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 1 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Green"
+width = 2 
+point = PT_DOT 
+pcolor = "Green"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 2 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Medium Blue"
+width = 2 
+point = PT_DOT 
+pcolor = "Medium Blue"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 3 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Red"
+width = 2 
+point = PT_DOT 
+pcolor = "Red"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 4 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Blue"
+width = 2 
+point = PT_DOT 
+pcolor = "Blue"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 5 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Medium Turquoise"
+width = 2 
+point = PT_DOT 
+pcolor = "Medium Turquoise"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 6 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Magenta"
+width = 2 
+point = PT_DOT 
+pcolor = "Magenta"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 7 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Light Sky Blue"
+width = 2 
+point = PT_DOT 
+pcolor = "Light Sky Blue"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 8 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Black"
+width = 2 
+point = PT_DOT 
+pcolor = "Black"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 9 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Green"
+width = 2 
+point = PT_DOT 
+pcolor = "Green"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 10 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Medium Blue"
+width = 2 
+point = PT_DOT 
+pcolor = "Medium Blue"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 11 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Red"
+width = 2 
+point = PT_DOT 
+pcolor = "Red"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 12 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Blue"
+width = 2 
+point = PT_DOT 
+pcolor = "Blue"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 13 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Medium Turquoise"
+width = 2 
+point = PT_DOT 
+pcolor = "Medium Turquoise"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 14 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Magenta"
+width = 2 
+point = PT_DOT 
+pcolor = "Magenta"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 15 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Light Sky Blue"
+width = 2 
+point = PT_DOT 
+pcolor = "Light Sky Blue"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 16 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Black"
+width = 2 
+point = PT_DOT 
+pcolor = "Black"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 17 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Green"
+width = 2 
+point = PT_DOT 
+pcolor = "Green"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 18 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Medium Blue"
+width = 2 
+point = PT_DOT 
+pcolor = "Medium Blue"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 19 
+lpat = LT_NONE 
+fpat = FP_NONE 
+lcolor = "Red"
+width = 2 
+point = PT_DOT 
+pcolor = "Red"
+psize = 4 
+<end_format_props>
+
+<begin_format_props>
+dataset = 0 
+lpat = LT_DEFAULT 
+fpat = FP_NONE 
+%			lcolor = "Some Character String"
+width = 0 
+point = PT_DEFAULT 
+%			pcolor = "Some Character String"
+psize = 0 
+<end_format_props>
+
+<end_format_props_list>
+
+<begin_data_set_xy>
+legend = "Res%d"
+0	8.36091e-05
+0.02	8.38248e-05
+0.04	8.43002e-05
+0.06	8.47267e-05	0.00268152
+0.08	8.50631e-05	0.00268968
+0.1	8.5588e-05	0.00270081
+0.12	8.65039e-05	0.002715
+0.14	8.75468e-05	0.00273214
+0.16	0.00969568	8.84004e-05	0.00275195
+0.18	0.009101	9.00064e-05	0.00277404
+0.2	0.00862564	9.37504e-05	0.00279803
+0.22	9.46837e-05	0.00824283	0.00282367
+0.24	8.96683e-05	0.00793585	0.00285087
+0.26	8.53788e-05	0.00766558	0.00287978
+0.28	8.47225e-05	0.00736636	0.00291068
+0.3	8.58818e-05	0.00706916	0.00294395
+0.32	8.78943e-05	0.00680865	0.00297989
+0.34	9.04573e-05	0.00658957	0.00301869
+0.36	9.34405e-05	0.00640702	0.00306035
+0.38	9.67479e-05	0.00625907	0.00310468
+0.4	0.000100265	0.00613997	0.00315137
+0.42	0.000103894	0.00604503	0.00320001
+0.44	0.000107589	0.00597047	0.00325027
+0.46	0.00011128	0.00591278	0.00330191
+0.48	0.000114963	0.00586764	0.00335491
+0.5	0.000118681	0.00583345	0.00340943
+0.52	0.000122508	0.00580723	0.00346581
+0.54	0.000126515	0.00578597	0.00352445
+0.56	0.000130754	0.00577008	0.00358576
+0.58	0.000135242	0.00575483	0.00365002
+0.6	0.000139961	0.00574163	0.00371736
+<end_data_set_xy>

@@ -1,0 +1,325 @@
+<begin_header>
+what = "@(#)NEMO Electron Sheet Charge Data File -- Version 4.0.2"
+ftype = Electron_Sheet_Charge_Data_File 
+version = "4.0.2"
+%			comments = "Some Character String"
+<end_header>
+
+<begin_x_axis>
+min = 0 
+max = 0 
+title = "Voltage (V)"
+%			label = "Some Character String"
+%			units = "Some Character String"
+autoscale = Trueflag 
+logscale = Falseflag 
+showaxis = Trueflag 
+showgrid = Falseflag 
+<end_x_axis>
+
+<begin_y_axis>
+min = 0 
+max = 0 
+title = "Electron Sheet Density (1/nm2)"
+%			label = "Some Character String"
+%			units = "Some Character String"
+autoscale = Trueflag 
+logscale = Falseflag 
+showaxis = Trueflag 
+showgrid = Falseflag 
+<end_y_axis>
+
+<begin_z_axis>
+min = 0 
+max = 0 
+%			title = "Some Character String"
+%			label = "Some Character String"
+%			units = "Some Character String"
+autoscale = Trueflag 
+logscale = Falseflag 
+showaxis = Trueflag 
+showgrid = Falseflag 
+<end_z_axis>
+
+<begin_legend_props>
+show = Falseflag 
+orient = XRT_ALIGN_VERTICAL 
+anchor = XRT_ANCHOR_EAST 
+border = XRT_BORDER_SHADOW 
+X = 0 
+Y = 0 
+Xdefault = Trueflag 
+Ydefault = Trueflag 
+dataset = 0 
+%			label_fmt = "Some Character String"
+<end_legend_props>
+
+
+<begin_format_props_list>
+<begin_format_props>
+dataset = 0 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Black"
+width = 2 
+point = PT_NONE 
+pcolor = "Black"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 1 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Tan"
+width = 2 
+point = PT_NONE 
+pcolor = "Green"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 2 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Lime Green"
+width = 2 
+point = PT_NONE 
+pcolor = "Medium Blue"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 3 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Medium Turquoise"
+width = 2 
+point = PT_NONE 
+pcolor = "Red"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 4 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Blue"
+width = 2 
+point = PT_NONE 
+pcolor = "Red"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 5 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Magenta"
+width = 2 
+point = PT_NONE 
+pcolor = "Medium Blue"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 6 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Green Yellow"
+width = 2 
+point = PT_NONE 
+pcolor = "Magenta"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 7 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Medium Blue"
+width = 2 
+point = PT_NONE 
+pcolor = "Light Sky Blue"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 8 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Red"
+width = 2 
+point = PT_NONE 
+pcolor = "Magenta"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 9 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Tan"
+width = 2 
+point = PT_NONE 
+pcolor = "Green"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 10 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Lime Green"
+width = 2 
+point = PT_NONE 
+pcolor = "Medium Blue"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 11 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Medium Turquoise"
+width = 2 
+point = PT_NONE 
+pcolor = "Red"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 12 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Blue"
+width = 2 
+point = PT_NONE 
+pcolor = "Red"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 13 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Magenta"
+width = 2 
+point = PT_NONE 
+pcolor = "Medium Blue"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 14 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Green Yellow"
+width = 2 
+point = PT_NONE 
+pcolor = "Magenta"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 15 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Medium Blue"
+width = 2 
+point = PT_NONE 
+pcolor = "Light Sky Blue"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 16 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Red"
+width = 2 
+point = PT_NONE 
+pcolor = "Magenta"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 17 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Tan"
+width = 2 
+point = PT_NONE 
+pcolor = "Green"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 18 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Lime Green"
+width = 2 
+point = PT_NONE 
+pcolor = "Medium Blue"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 19 
+lpat = LT_SOLID 
+fpat = FP_NONE 
+lcolor = "Medium Turquoise"
+width = 2 
+point = PT_NONE 
+pcolor = "Red"
+psize = 5 
+<end_format_props>
+
+<begin_format_props>
+dataset = 0 
+lpat = LT_DEFAULT 
+fpat = FP_NONE 
+%			lcolor = "Some Character String"
+width = 0 
+point = PT_DEFAULT 
+%			pcolor = "Some Character String"
+psize = 0 
+<end_format_props>
+
+<end_format_props_list>
+
+<begin_data_set_xy>
+legend = "Qn%d"
+0	0.000269316
+0.02	0.000267755
+0.04	0.000263152
+0.06	0.000255743
+0.08	0.000245891
+0.1	0.000234044
+0.12	0.000220698
+0.14	0.000206347
+0.16	0.000191455
+0.18	0.000176427
+0.2	0.000161601
+0.22	0.000147241
+0.24	0.000133538
+0.26	0.000120629
+0.28	0.000108591
+0.3	9.74602e-05
+0.32	8.72427e-05
+0.34	7.79194e-05
+0.36	6.94548e-05
+0.38	6.18023e-05
+0.4	5.49091e-05
+0.42	4.87189e-05
+0.44	4.31747e-05
+0.46	3.82205e-05
+0.48	3.38022e-05
+0.5	2.98689e-05
+0.52	2.63726e-05
+0.54	2.32691e-05
+0.56	2.05177e-05
+0.58	1.80812e-05
+0.6	1.59256e-05
+<end_data_set_xy>
